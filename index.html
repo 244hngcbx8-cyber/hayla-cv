@@ -1,151 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hayla CV</title>
 
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <meta charset="UTF-8">
 
-<style>
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
+    <title>Hayla CV</title>
 
-body{
-    font-family:Arial, sans-serif;
-    background:#ffeef5;
-    padding:30px;
-    display:flex;
-    justify-content:center;
-}
+    <link rel="stylesheet" href="style.css">
 
-.cv{
-    width:900px;
-    background:white;
-    border-radius:25px;
-    overflow:hidden;
-    display:grid;
-    grid-template-columns:280px 1fr;
-    box-shadow:0 8px 25px rgba(0,0,0,0.1);
-}
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 
-/* LEFT SIDE */
-
-.left{
-    background:#ff7eb3;
-    color:white;
-    padding:40px 25px;
-}
-
-.left h1{
-    text-align:center;
-    font-size:36px;
-    margin-bottom:10px;
-}
-
-.left .job{
-    text-align:center;
-    font-size:18px;
-    margin-bottom:35px;
-    opacity:0.95;
-}
-
-.section{
-    margin-bottom:35px;
-}
-
-.section h2{
-    margin-bottom:15px;
-    font-size:20px;
-    border-bottom:2px solid rgba(255,255,255,0.4);
-    padding-bottom:8px;
-}
-
-.section p,
-.section li{
-    line-height:1.9;
-    font-size:15px;
-}
-
-.section ul{
-    padding-left:20px;
-}
-
-/* RIGHT SIDE */
-
-.right{
-    padding:40px;
-}
-
-.box{
-    margin-bottom:35px;
-}
-
-.box h2{
-    color:#ff4f93;
-    margin-bottom:15px;
-    font-size:24px;
-}
-
-.box p{
-    color:#555;
-    line-height:1.9;
-}
-
-.education-card{
-    background:#fff3f8;
-    padding:18px;
-    border-radius:15px;
-    margin-top:15px;
-}
-
-.education-card h3{
-    color:#ff4f93;
-    margin-bottom:8px;
-}
-
-.education-card p{
-    color:#666;
-}
-
-.skills{
-    display:flex;
-    flex-wrap:wrap;
-    gap:12px;
-}
-
-.skill{
-    background:#ffe0ec;
-    color:#d63384;
-    padding:10px 18px;
-    border-radius:30px;
-    font-size:14px;
-    font-weight:bold;
-}
-
-.social{
-    margin-top:25px;
-}
-
-.social i{
-    font-size:24px;
-    color:#ff4f93;
-    margin-right:15px;
-}
-
-</style>
 </head>
 
 <body>
 
 <div class="cv">
-
-    <!-- LEFT SIDE -->
 
     <div class="left">
 
@@ -180,21 +54,7 @@ body{
 
         </div>
 
-        <div class="section">
-
-            <h2>Hobbies</h2>
-
-            <ul>
-                <li>Design</li>
-                <li>Programming</li>
-                <li>Learning New Skills</li>
-            </ul>
-
-        </div>
-
     </div>
-
-    <!-- RIGHT SIDE -->
 
     <div class="right">
 
@@ -203,25 +63,9 @@ body{
             <h2>About Me</h2>
 
             <p>
-                Computer Science student and future programmer passionate about
-                technology and web development. I enjoy learning new skills,
-                creating modern designs, and improving myself in programming
-                and problem solving.
+                Computer Science student and future programmer passionate
+                about technology and web development.
             </p>
-
-        </div>
-
-        <div class="box">
-
-            <h2>Education</h2>
-
-            <div class="education-card">
-
-                <h3>Shaqra University</h3>
-
-                <p>Bachelor of Computer Science - 2028</p>
-
-            </div>
 
         </div>
 
@@ -232,40 +76,20 @@ body{
             <div class="skills">
 
                 <div class="skill">HTML</div>
+
                 <div class="skill">CSS</div>
-                <div class="skill">Python</div>
-                <div class="skill">Teamwork</div>
-                <div class="skill">Communication</div>
+
+                <div class="skill">JavaScript</div>
 
             </div>
-
-        </div>
-
-        <div class="box">
-
-            <h2>Experience</h2>
-
-            <p>
-                Worked on simple web projects and practiced responsive
-                web design using HTML and CSS.
-            </p>
-
-
-</div>
-
-        <div class="social">
-
-            <i class="fab fa-github"></i>
-
-            <i class="fab fa-linkedin"></i>
-
-            <i class="fab fa-instagram"></i>
 
         </div>
 
     </div>
 
 </div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
