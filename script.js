@@ -1,1 +1,1 @@
-console.log("Hayla CV Website");
+console.log("Welcome to Hayla CV");
